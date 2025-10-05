@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(fonts/Nunito-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+main{
+    height: 200vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header > nav{
+    position: fixed;
+    display: flex;
+    gap: 3vw;
+    background-color: gray;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 2vh;
+    border-radius: 20px;
+    align-items: center;
+}
+header > nav > ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+header > nav > div > input{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
